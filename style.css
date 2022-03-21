@@ -79,3 +79,6 @@ main{
     align-items: center;
     font-size: 1.8em;
 }
+.box1, .box2, .box3:hover{
+    cursor: pointer;
+}

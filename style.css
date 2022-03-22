@@ -6,7 +6,7 @@
 
 .head{
     display: flex;
-    padding: 30px;
+    height: 10vh;
 }
 .logo{
     height: 50px;
@@ -38,7 +38,7 @@ h2{
 }
 main{
     background-color: aquamarine;
-    height: calc(100vh - 110px);
+    height: calc(100vh - 20vh);
     padding-top: 150px;
 }
 #griglia{
@@ -81,4 +81,20 @@ main{
 }
 .box1, .box2, .box3:hover{
     cursor: pointer;
+}
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.credits{
+    width: 60%;
+    margin: auto;
+    font-size: 2em;
+}
+.credits a{
+    color: rgba(100,149,237,255);
+}
+.credits span{
+    color: red ;
 }

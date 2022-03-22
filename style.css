@@ -52,6 +52,10 @@ main{
     background-color: rgba(100,149,237,255);
     color: white;
 }
+.bg_bomba{
+    background-color: red;
+    color: white;
+}
 .box1{
     width: calc(100% / 10);
     height: calc(100% / 10);
